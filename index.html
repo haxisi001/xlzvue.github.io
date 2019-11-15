@@ -1,1 +1,45 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><title>totravel</title><link href=./static/css/app.1048769d7e82308524e3e24c6164b1e4.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.3ad1d5771e9b13dbdad2.js></script><script type=text/javascript src=./static/js/vendor.058121f19365fe3e0b74.js></script><script type=text/javascript src=./static/js/app.eb82a3f6adf7c33d99c2.js></script></body></html><script type=text/javascript></script>
+<!Doctype>
+<html>
+<meta>
+<style type="text/css">
+    html,body{
+        margin: 0;
+        padding: 0;
+    }
+    .bg{
+        width:100%;
+        height: 2000px;
+        background-image: url("images/bg.jpg");
+        background-repeat: no-repeat;
+        position: absolute;
+    }
+    .airplanebox{
+        position: relative;
+        width: 1048px;
+        height: 524px;
+        margin: 0 auto;
+        margin-top: 405px;
+        overflow: hidden;
+        background-image: url("images/airplanebg.png");
+        background-repeat: no-repeat;
+    }
+    .air{
+        -webkit-animation:haha1 .8s linear infinite;
+        animation:haha1 2s linear infinite
+    }
+    @-webkit-keyframes haha1{
+        0%{-webkit-transform:rotate(0deg);}
+        25%{-webkit-transform:rotate(90deg);}
+        50%{-webkit-transform:rotate(180deg);}
+        75%{-webkit-transform:rotate(270deg);}
+        100%{-webkit-transform:rotate(360deg);}
+    }
+</style>
+<body>
+<div class="bg">
+    <div class="airplanebox">
+        <img class="air" src="images/airplane.png">
+    </div>
+</div>
+</body>
+</html>
